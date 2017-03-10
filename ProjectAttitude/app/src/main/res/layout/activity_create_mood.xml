@@ -22,18 +22,6 @@
             android:orientation="vertical" >
 
             <TextView
-                android:text="@string/mood_label"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/moodLabel"
-                android:labelFor="@+id/moodField"/>
-            <EditText
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="text"
-                android:id="@+id/moodField"/>
-
-            <TextView
                 android:text="@string/date_label"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
