@@ -40,6 +40,7 @@
     android:focusableInTouchMode="true">
 
     <ImageButton
+        android:contentDescription="@string/imageDesc"
         android:id="@+id/menuButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -62,6 +63,7 @@
         android:textSize="35sp"/>
 
     <ImageButton
+        android:contentDescription="@string/imageDesc"
         android:id="@+id/filterButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -72,6 +74,7 @@
         />
 
     <ImageButton
+        android:contentDescription="@string/imageDesc"
         android:id="@+id/searchButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -103,6 +106,7 @@
         android:layout_below="@+id/searchBar" />
 
 
+    <!--TODO add actually floaty floatingactionbutton-->
     <android.support.design.widget.FloatingActionButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -123,7 +127,7 @@
         android:layout_above="@+id/searchBar"
         android:layout_toLeftOf="@+id/menuButton"
         android:layout_toStartOf="@+id/menuButton"
-        android:text="Map" />
+        android:text="@string/map" />
 
 </RelativeLayout>
 

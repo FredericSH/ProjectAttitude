@@ -41,7 +41,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="16pt"
-        android:text="Date here"
         android:layout_below="@+id/dateLabel"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -58,8 +57,10 @@
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
+            android:layout_above="@+id/EmotionalStateImage"
             android:textSize="16pt" />
         <ImageView
+            android:contentDescription="@string/imageDesc"
             android:gravity="end"
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true"
@@ -72,7 +73,6 @@
         android:id="@+id/TriggerView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Trigger goes here"
         android:textSize="16pt"
 
         android:layout_below="@+id/triggerLabel"
@@ -83,7 +83,6 @@
         android:id="@+id/SocialSituationView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Social Situation"
         android:layout_below="@+id/socialSituationLabel"
         android:textSize="16pt"
         android:layout_alignParentLeft="true"
@@ -108,6 +107,7 @@
         <!--android:text="Delete" />-->
 
     <ImageView
+        android:contentDescription="@string/imageDesc"
         android:id="@+id/imageView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -123,7 +123,6 @@
         android:id="@+id/dateLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Date:"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/EmotionStateLayout" />
@@ -132,7 +131,6 @@
         android:id="@+id/socialSituationLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Social Situation:"
         android:layout_below="@+id/TriggerView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -141,7 +139,6 @@
         android:id="@+id/triggerLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Trigger:"
         android:layout_below="@+id/DateView"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -150,7 +147,6 @@
         android:id="@+id/emotionStateLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Emotional State:"
         android:layout_alignParentTop="true" />
 
 </RelativeLayout>

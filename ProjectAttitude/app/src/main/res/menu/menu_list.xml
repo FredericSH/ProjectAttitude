@@ -29,15 +29,15 @@
 
     <item android:id="@+id/view"
         android:icon="@android:drawable/ic_menu_add"
-        android:title="View" />
+        android:title="@string/view" />
 
     <item android:id="@+id/edit"
         android:icon="@android:drawable/ic_menu_add"
-        android:title="Edit" />
+        android:title="@string/edit" />
 
     <item android:id="@+id/delete"
         android:icon="@android:drawable/ic_menu_edit"
-        android:title="Delete" />
+        android:title="@string/delete" />
     <item android:id="@+id/tweet"
-        android:title="Tweet mood"/>
+        android:title="@string/tweet"/>
 </menu>

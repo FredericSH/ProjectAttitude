@@ -78,6 +78,12 @@
     <string name="shame_option">Shame</string>
     <string name="surprise_option">Surprise</string>
 
+    <!-- Context menu labels -->
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="tweet">Tweet Mood</string>
+
 
     <string-array name="social_situations">
         <item>Select a social situation</item>
@@ -89,6 +95,7 @@
     <string name="spinner">Social Situations</string>
     <!-- Strings related to MainActivity-->
     <string name="mood_text">Moods</string>
+    <string name="map">Map</string>
 
     <!-- Strings related to CreateAccountActivity-->
     <string name="complete_button">Complete</string>
@@ -97,6 +104,7 @@
     <!-- Strings for create mood activity -->
     <string name="mood_label">Mood:</string>
     <string name="date_label">Date:</string>
+    <string name="dateFieldHint">Select Date...</string>
     <string name="emotional_state_label">Emotional State:</string>
     <string name="trigger_label">Trigger:</string>
     <string name="save_button">Save</string>
@@ -104,6 +112,9 @@
     <string name="emotion_state_error">Emotional state is a mandatory field</string>
     <string name="social_situation_label">Social Situation:</string>
     <string name="save_location">Save Location</string>
+    <string name="add_photo">Add Photo</string>
+
+    <string name="imageDesc"></string>
 
     <string-array name="emotional_state">
         <item>Select an emotional state</item>

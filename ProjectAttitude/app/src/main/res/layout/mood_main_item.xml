@@ -58,6 +58,7 @@
     </LinearLayout>
 
     <ImageView
+        android:contentDescription="@string/imageDesc"
         android:layout_alignParentRight="true"
         android:id="@+id/mainImageView"
         android:layout_width="wrap_content"

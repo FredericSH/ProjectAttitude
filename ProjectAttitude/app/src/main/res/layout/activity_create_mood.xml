@@ -39,7 +39,7 @@
     android:weightSum="1">
 
     <ScrollView
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="match_parent"
         android:layout_weight="0.76">
 
@@ -60,7 +60,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:focusable="false"
-                android:hint="Select Date..."
+                android:hint="@string/dateFieldHint"
                 android:inputType="date" />
 
             <TextView
@@ -83,6 +83,7 @@
                 android:id="@+id/triggerLabel"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:labelFor="@+id/triggerField"
                 android:text="@string/trigger_label" />
 
             <EditText
@@ -106,6 +107,7 @@
                 android:prompt="@string/spinner" />
 
             <ImageView
+                android:contentDescription="@string/imageDesc"
                 android:id="@+id/imageView"
                 android:layout_width="match_parent"
                 android:layout_height="145dp"
@@ -121,7 +123,7 @@
                 android:id="@+id/addPhoto"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Add Photo" />
+                android:text="@string/add_photo" />
 
             <Button
                 android:id="@+id/saveButton"
